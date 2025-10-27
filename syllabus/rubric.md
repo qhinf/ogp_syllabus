@@ -103,3 +103,9 @@
 
 </tbody>
 </table>
+
+## Hoe bepaal ik mijn cijfer?
+
+Je bepaalt zelf je cijfer, aan de hand van de rubric hierboven. Als je kunt laten zien dat je de vaardigheden van een metselaar op het basisniveau beheerst, dan zit je op een 6. Vanaf daar loopt het omhoog naar een 10, die je verdient als je de vaardigheden van een hoofdarchitect kunt aantonen. Dus trek een lijn door de rubric waarvan jij denkt dat je duidelijk kunt aantonen waar je zit en kijk waar dat valt tussen 6 en 10.
+
+Natuurlijk zijn er een aantal zaken waar je ook rekening mee moet houden, zoals je voorkennis (bijvoorbeeld van Python en Git) of persoonlijke omstandigheden. Misschien heb je relevante vaardigheden geleerd en laten zien die niet in de rubric staan, maar die er wel bijhoren. Of misschien zit je heel verspreid over niveaus. Er is geen directe formule voor een cijfer. In je portfolio dien je je docent ervan te overtuigen dat je het cijfer dat je jezelf geeft ook hebt verdiend. Als je dat duidelijk en overtuigend doet, kun je erop rekenen dat dat het cijfer is dat je krijgt.

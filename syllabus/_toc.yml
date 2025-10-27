@@ -7,6 +7,4 @@ root: index
 options:
   numbered: true
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: rubric

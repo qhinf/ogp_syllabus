@@ -3,6 +3,8 @@
 <!-- Deze regel niet wijzigen! -->
 *Versie {{ versie }}. Jouw docent: {{ docent }} ({{ docent_email }})*
 
+*Let op! Deze module is nog ontwikkeling en deze syllabus ~~kan~~ gaat nog veranderen.*
+
 Heb jij de module Basis van Programmeren gevolgd en wil je je verder verdiepen in de wereld van programmeren? En heb jij ook altijd al een game willen bouwen? Dat gaan we in deze module doen! Om de code van zo'n groot project overzichtelijk te houden, doen we dat op een specifieke manier: objectgeoriënteerd programmeren. En dat doen we gewoon in Python, dus de basis heb je al.
 
 We werken bij deze module allemaal binnen één game, zodat je ook de kans krijgt om te zien wat je klasgenoten maken, daarop voort te bouwen en met elkaar samen te werken. Daarvoor gaan we gebruik maken van Git, wat ook door vrijwel alle professionele programmeurs gebruikt wordt om samen code te schrijven. Dat is ook meteen een nuttige voorbereiding voor bijvoorbeeld Project Informatica.

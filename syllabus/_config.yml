@@ -1,8 +1,7 @@
 # Boek configuratie
 # https://jupyterbook.org/customize/config.html
 
-# TODO: Verander de titel!
-title: Voorbeeldsyllabus
+title: Objectgeoriënteerd Programmeren
 
 # Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
 # basis van de commitgeschiedenis.
@@ -53,11 +52,11 @@ sphinx:
     # een volgende editie.
     myst_substitutions:
       versie: "Globaal afgehandeld. Niet wijzigen."
-      eerste_inlevermoment: "donderdag 29 juno, 16:00" # donderdag in week 8
-      tweede_inlevermoment_melden: "maandag 12 juno, 16:00" # maandag in week 7
-      tweede_inlevermoment: "dinsdag 13 julij, 16:00" # dinsdag in week 3 van volgende blok
-      docent: "..."
-      docent_email: "... apenstaartje quadraam punt nl"
+      eerste_inlevermoment: "donderdag 15 januari, 16:00" # donderdag in week 8
+      tweede_inlevermoment_melden: "donderdag 18 december, 16:00" # donderdag in week 6
+      tweede_inlevermoment: "donderdag 5 februari, 16:00" # donderdag in week 3 van volgende blok
+      docent: "Arthur Rump"
+      docent_email: "a punt rump apenstaartje quadraam punt nl"
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle

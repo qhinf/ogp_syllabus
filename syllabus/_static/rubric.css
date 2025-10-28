@@ -1,0 +1,14 @@
+table.rubric td, table.rubric th {
+  font-size: .9em;
+  border: 1px solid black;
+  font-weight: normal;
+  padding: .4em;
+}
+
+table.rubric thead th {
+  font-weight: bold;
+}
+
+table.rubric th {
+  text-align: center;
+}

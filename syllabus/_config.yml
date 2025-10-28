@@ -48,6 +48,8 @@ sphinx:
     # We wachten op https://github.com/executablebooks/sphinx-exercise/issues/13
     numfig_format:
       exercise: "Oefening %s"
+    # Custom CSS voor de rubric tabel
+    html_css_files: [ "rubric.css" ]
     # Definieer de keys die in de tekst vervangen kunnen worden. Handig voor
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.

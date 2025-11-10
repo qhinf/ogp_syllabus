@@ -16,7 +16,7 @@ Aan het eind van deze module kun je dus ...
 
 Vanaf de eerste bijeenkomst werk je op de bouwplaats aan de game. Je begint klein met het metselen met bestaande bouwstenen om je eigen levels te bouwen, maar je hoeft daar niet te blijven steken: je leert ook hoe je je eigen bouwstenen, bijvoorbeeld karakters of voorwerpen, met hun eigen gedrag maakt. Misschien ontwikkel je je door tot architect van een deel van het spel (of zelfs het hele spel) of werp jij je op als smid die gereedschappen maakt die je klasgenoten kunnen gebruiken. Eén ding is zeker: je leert dat alleen door het te doen, dus het is belangrijk om vanaf het begin van de module actief deel te nemen, ook als je misschien niet bij een bijeenkomst kunt zijn.
 
-Het werk dat je tijdens de module uitvoert, gebruik je aan het einde van de module om je eigen beoordeling te bepalen: volg de {doc}`rubric.md` en laat zien hoe hoog je op de ladder bent geklommen aan de hand van je activiteit in GitHub. De vorm daarvoor bepalen we nog (een presentatie, een mondeling, een portfoliodocument?), maar de deadlines zijn wel bekend:
+Het werk dat je tijdens de module uitvoert, gebruik je aan het einde van de module om je eigen beoordeling te bepalen: volg de {doc}`rubric` en laat zien hoe hoog je op de ladder bent geklommen aan de hand van je activiteit in GitHub. De vorm daarvoor bepalen we nog (een presentatie, een mondeling, een portfoliodocument?), maar de deadlines zijn wel bekend:
 
 - Eerste inlevermoment: **{{ eerste_inlevermoment }}**
 - Tweede inlevermoment: **{{ tweede_inlevermoment }}**

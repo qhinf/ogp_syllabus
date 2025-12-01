@@ -6,5 +6,13 @@ format: jb-book
 root: index
 options:
   numbered: true
-chapters:
-- file: rubric
+parts:
+  - caption: Over de module
+    chapters:
+      - file: rubric
+  - caption: Tutorials
+    chapters:
+      # - file: tutorials/tools
+      # - file: tutorials/arcade
+      # - file: tutorials/ogp
+      - file: tutorials/damage

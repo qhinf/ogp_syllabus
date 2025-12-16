@@ -14,5 +14,6 @@
   - Beide gingen een soort enemy maken
   - Klooien met hoe die ook zwaartekracht ondervind, twee opties geprobeerd: eigen implementatie of een tweede physics engine
   - Update loop
+- Objecten van een eigen class maken vanuit Tiled: `layer_options = { "PowerUp": { "custom_class": PowerUp } }`
 
 -->

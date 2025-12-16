@@ -14,5 +14,8 @@ parts:
     chapters:
       # - file: tutorials/tools
       # - file: tutorials/arcade
+      # - file: tutorials/git
       # - file: tutorials/ogp
+      # - file: tutorials/animatie
       - file: tutorials/damage
+      # - file: tutorials/schieten

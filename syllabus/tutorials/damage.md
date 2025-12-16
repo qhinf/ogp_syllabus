@@ -130,3 +130,5 @@ class MainPlayer(arcade.Sprite):
 Nu is het de `GameView` die verantwoordelijk is voor het detecteren van *game over* en de bijbehorende restart in gang te zetten, maar hangt het niet af van de details hoe we de levensvatbaarheid van onze speler bepalen. We hebben nog steeds twee plekken in de code die te maken hebben met *game over*, maar die hebben duidelijk een eigen verantwoordelijkheid: als we willen aanpassen wat er gebeurt bij een *game over* of wanneer het game over is, dan moeten we in de `GameView` zijn. Willen we aanpassen wanneer een speler dood gaat, dan doen we dat in de `MainPlayer`.
 
 Een goede vuistregel om aan te houden: in een andere class mag je alleen methoden van een class aanroepen, nooit een interne variabele van die class opvragen en al zeker niet aanpassen. Zo kun je classes goed gescheiden houden en voorkomen dat alle code aangepast moet worden als je alleen intern in de werking van een class iets wilt veranderen.
+
+<!-- ## Power-ups: zelfde structuur als enemies, maar dan natuurlijk niet `take_damage` -->

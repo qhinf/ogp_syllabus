@@ -336,9 +336,9 @@ Schrijf een functie die twee getallen optelt.
 
 ## Tools
 
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Python](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/install/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [Tiled](https://www.mapeditor.org/)
 
 ***

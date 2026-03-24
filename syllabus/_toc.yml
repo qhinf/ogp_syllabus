@@ -12,7 +12,7 @@ parts:
       - file: rubric
   - caption: Tutorials
     chapters:
-      # - file: tutorials/tools
+      - file: tutorials/tools
       # - file: tutorials/arcade
       # - file: tutorials/git
       # - file: tutorials/ogp

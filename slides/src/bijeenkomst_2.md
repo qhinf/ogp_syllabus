@@ -10,6 +10,7 @@ Q-highschool / Bijeenkomst 2
 
 - Kennismaking
 - Inchecken
+- Korte intro Arcade
 - Classes en objecten
 - Afspraken
 - Aan de slag

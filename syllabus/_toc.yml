@@ -13,6 +13,7 @@ parts:
   - caption: Tutorials
     chapters:
       - file: tutorials/tools
+      - file: tutorials/werklpaats
       # - file: tutorials/arcade
       # - file: tutorials/git
       # - file: tutorials/ogp

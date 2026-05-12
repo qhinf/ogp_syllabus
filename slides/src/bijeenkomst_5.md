@@ -9,9 +9,9 @@ Q-highschool / Bijeenkomst 5
 ## Vandaag
 
 - Inchecken
-- Opfrissen
-- Git: merging branches
-- Projectielen
+- SOLID design
+- Animaties
+- Merge conflicts oplossen?
 - Uitchecken
 
 ***
@@ -26,64 +26,118 @@ Wat wil je vandaag leren?
 
 ***
 
-## Opfrissen
+## SOLID
+
+principes voor objectgeoriënteerd ontwerp
+
+Notes:
+Van "Uncle Bob" Robert C. Martin, bekend van het Agile manifesto en zijn boek "Clean Code".
 
 ---
 
-Wat is het verschil tussen een class en een object?
+<!-- .slide: style="text-align: left" -->
+
+**S**ingle responsibility principle\
+**O**pen-closed principle\
+**L**iskov substitution principle\
+**I**nterface segregation principle\
+**D**ependency inversion principle
+
+Notes:
+
+Bronnen:
+- [ArticleS.UncleBob.PrinciplesOfOod](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+- [SOLID - Wikipedia](https://en.wikipedia.org/wiki/SOLID)
+- [Principles_and_Patterns.pdf](https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
+
 
 ---
 
-Wat is een subclass?
+### Single responsibility
+
+> Gather together the things that change for the same reasons.\
+> Separate those things that change for different reasons.
+
+Ook wel: *separation of concerns*
+
+Notes:
+De redenen voor verandering komt altijd vanuit mensen, dus het gaat erom dat een mens die een bepaald *concern* (zorg) heeft vanuit hun rol.
+
+De *physics engine* is los van alle objecten die door *physics* beïnvloed worden, want als je de natuurkundige regels van je wereld wilt aanpassen, dan moet er één plek zijn waar je dat doet.
+
+Bronnen:
+- [Clean Coder Blog](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 
 ---
 
-Wat doet de `__init__` methode?
+### Open-closed
+
+Open voor uitbreiding,\
+gesloten voor aanpassing.
+
+Notes:
+We bouwen voort op een `Sprite` en voegen daar gedrag aan toe, zonder dat we de code van `Sprite` hoeven aan te passen. Als we een nieuw soort `Sprite` willen toevoegen, dan hoeven we daarvoor niet de code van `Sprite` te veranderen: die is gesloten voor aanpassing.
 
 ---
 
-Met welk woord verwijs je in Python naar het huidige object?
+### Liskov substitution
 
-- `me`
-- `this`
-- `self`
-- `my`
+Een subclass moet altijd doorgeven kunnen worden op een plek waar de `super()`-class wordt verwacht.
 
-<!-- .element: class="mc" -->
+Notes:
+Dus onze `MainPlayer` moeten we aan iedere functie die een `Sprite` verwacht kunnen meegeven, zonder dat dingen stukgaan. Een subclass mag dus geen dingen doen die niet in het "contract" van de superclass staan: je mag dus niet een `Sprite` maken waarbij je de `update()` methode altijd een foutmelding laat geven.
+
+Barbara Liskov heeft o.a. hiervoor haar Turing-award gekregen, dat is de Nobelprijs van de informatica.
 
 ---
 
-Hoe heet de class die voor de meeste "gameobjecten" wordt gebruikt in Arcade?
+### Interface segregation
 
-- `Object`
-- `Sprite`
-- `GameObject`
-- `CanvasItem`
+Een "client" hoeft niets te weten over methodes die die niet nodig heeft.
 
-<!-- .element: class="mc" -->
+![](assets/segregated_interfaces.png) 
+
+<!-- .element: class="r-stretch" -->
+
+Notes:
+Python heeft geen interfaces zoals die in andere talen wel bestaan, maar lost dat op door multiple-inheritance toe te staan, zodat je meerdere base classes kunt hebben die een vergelijkbare rol vervullen.
+
+Bronnen:
+- [Principles_and_Patterns.pdf](https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf)
+
+---
+
+### Dependency inversion
+
+> Depend upon abstractions.\
+> Do not depend upon concretions.
+
+Notes:
+Vertaling: schrijf een functie die een `Sprite` verwacht, als je niet de functionaliteit van de `MainPlayer` nodig hebt. Zorg dat er een abstractere `Enemy` class is als je meerdere soorten enemies maakt, en dat algemene functionaliteit op die `Enemy` class werkt in plaats van op concrete enemies.
+
+---
+
+<!-- .slide: style="text-align: left" -->
+
+**S**ingle responsibility principle\
+**O**pen-closed principle\
+**L**iskov substitution principle\
+**I**nterface segregation principle\
+**D**ependency inversion principle
+
+Notes:
+Dit zijn richtlijnen, altijd afwegingen te maken.
 
 ***
 
-## Verder vandaag
-
-- Git: merging branches
-- Projectielen
-- Uitchecken
+## Animaties
 
 Notes:
-Git:
-- Committen, delen van een file committen
-  - evt: featurebranches
-- Pull en merge
-- PR maken
+Wat hebben we daarvoor nodig?
 
-Projectielen:
-- Wie is de eigenaar van projectielen? Als de speler ze loslaat, waar blijven ze dan?
-  - -> Een SpriteList in de hoofdtab
-    - Kan een losse zijn, kan in de scene
-  - Waar heeft de speler dan een referentie naar nodig: eigenlijk alleen die SpriteList
-    - Als je de Scene doorgeeft, kun je de speler alleen gebruiken in games met een scene, terwijl je verder geen Scene functionaliteit nodig hebt
-- Waar doen we collisions? -> vergelijk met enemies, dus in `on_update` in de `GameView`
+***
+
+## Is er al een merge conflict?
 
 ***
 

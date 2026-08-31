@@ -2,7 +2,7 @@
 
 <!-- .element: style="font-size: 2.2em;" -->
 
-Q-highschool / Bijeenkomst 7
+Q-vak Informatica / Bijeenkomst 7
 
 ---
 

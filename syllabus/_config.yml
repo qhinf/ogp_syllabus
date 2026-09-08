@@ -61,6 +61,8 @@ sphinx:
       docent: "Arthur Rump"
       docent_email: "a punt rump apenstaartje quadraam punt nl"
 
+      repo: "https://git.qinf.nl/gamewerkplaats_2627-1/gamewerkplaats"
+
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
 # syllabi afgehandeld.

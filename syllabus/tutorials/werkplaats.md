@@ -1,18 +1,30 @@
 # Aan de slag in de Werkplaats
 
-Van je docent heb je via Teams een GitHub Classroom link gekregen. Gebruik die link om je aan te melden en doorloop de stappen om toegang te krijgen tot de repository waarin we samen aan de game gaan werken. Eenmaal in de repository zie je een groene *Clone* knop: klik daarop en kopieer de link die je ziet staan.
+Je hebt via de mail een uitnodiging gekregen voor de organisatie van De Gamewerkplaats op [git.qinf.nl](https://git.qinf.nl), de Git server voor Q-vak Informatica. Klik op de link en maak een account aan om de uitnodiging te accepteren. Als je dat hebt gedaan, krijg je daarmee toegang tot [de repository]({{ repo }}) die we dit blok gaan gebruiken. In die repository werken we samen aan de code van de game. Om er zelf mee aan de slag te gaan, maak je een kopie op je eigen computer. Dat doen we in VS Code.
 
 ## git clone
 
-Om zelf aan de game te werken, wil je een lokale kopie van alle code op jouw computer hebben. Dat doen we vanuit Visual Studio Code: open Visual Studio Code, gebruik de toetsencombinatie <kbd>Ctrl+Shift+P</kbd> om het commandovenster te openen. Geef vervolgens het commando `Git: Clone` en druk op <kbd>Enter</kbd> om dat uit te voeren. Plak vervolgens de URL van de repository, druk wederom op <kbd>Enter</kbd> en kies een map om de code op jouw computer op te slaan. Gebruik bij voorkeur een map die niet via OneDrive (of iets anders) wordt gesynchroniseerd, want dat kan soms problemen opleveren.
+Klik op *Clone Repository* in de *Source Control* sectie van de linker zijbalk (die met drie cirkels). Plak de link naar de repository in het invoerveld en druk op enter. Let op dat je de juiste link gebruikt, die je vindt op de webpagina van [de repository]({{ repo }}), rechtsboven de bestandenlijst.
 
-## Python en Arcade
+![Screenshot 2026-09-08 122923](assets/Screenshot 2026-09-08 122923.png)
 
-Als je de repository hebt geopend in VSCode, kunnen we Arcade installeren. We gebruiken hiervoor een "virtual environment" in Python, waarmee dependencies (zoals Arcade) alleen in de map van dit project worden opgeslagen. Gebruik wederom <kbd>Ctrl+Shift+P</kbd> en voer het commando "Python: Create Environment..." uit. Kies de optie "Quick Create (venv - Create a virtual environment in workspace root)". Nu wordt Arcade geïnstalleerd in een *.venv* map in dit project.
+Kies vervolgens een map waar je de repository wilt opslaan (bij voorkeur niet in OneDrive, dat levert soms problemen op i.c.m. Git). Je browservenster opent vervolgens om in te loggen op git.qinf.nl. Geef de Git Credential Manager toegang met de knop *Authorize Application* en sluit je browser. 
+
+![Screenshot 2026-09-08 123241](assets/Screenshot 2026-09-08 123241.png)
+
+Gefeliciteerd, je hebt nu een lokale kopie van de game op jouw computer!
+
+In VS Code wordt je nu gevraagd of je de repository wilt openen. Klik op *Open*. Standaard openen nieuwe mappen in de zogenaamde *Restricted Mode*, waarin veel dingen niet werken. Klik op de knop *Restricted Mode* linksonderin, klik op de knop *Trust* en sluit de popup.
+
+![Screenshot 2026-09-08 123611](assets/Screenshot 2026-09-08 123611.png)
+
+Open de *Python* zijbalk en klik in de sectie *Environment Managers* op de + naast *venv*. (Mocht je die zijbalk niet zien, gebruik dan <kbd>Ctrl+Shift+P</kbd> en voer het commando *Python: Create Environment...* uit.) Kies vervolgens de *Quick Create* optie. Hiermee wordt een speciale Python omgeving aangemaakt voor dit project en daarin wordt arcade, de gamelibrary die we gebruiken, geïnstalleerd.
+
+![Screenshot 2026-09-08 123957](assets/Screenshot 2026-09-08 123957.png)
 
 ## De game uitvoeren
 
-Gebruik de sneltoets F5 om het spel te starten. Je kunt ook naar de "Debug" zijbalk gaan (die met het icoon van een play-knop met een kever erbij) en vervolgens de groene play-knop bovenin het scherm gebruiken.
+Gebruik de sneltoets F5 om het spel te starten. Je kunt ook naar de *Run and Debug* zijbalk gaan (die met het icoon van een play-knop met een kever erbij) en vervolgens de groene play-knop bovenin het scherm gebruiken.
 
 ## Wijzigingen maken
 

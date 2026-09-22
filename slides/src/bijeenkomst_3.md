@@ -1,4 +1,4 @@
-# Objectgeoriënteerd Programmeren
+# De Gamewerkplaats
 
 <!-- .element: style="font-size: 2.2em;" -->
 

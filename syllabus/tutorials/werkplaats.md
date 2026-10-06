@@ -28,6 +28,6 @@ Gebruik de sneltoets F5 om het spel te starten. Je kunt ook naar de *Run and Deb
 
 ## Wijzigingen maken
 
-Voordat je dingen gaat aanpassen, maak je eerst een eigen "branch": daarin kun je dan wijzigingen maken en naar GitHub sturen, zonder dat je met je klasgenoten in conflict raakt. Gebruik <kbd>Ctrl+Shift+P</kbd>, kies het commando "Git: Checkout to...", kies de optie "+ Create new branch..." en voer je eigen naam in als naam van de branch. Later kun je dit gebruiken om per nieuwe feature of set aan wijzigingen een branch aan te maken, maar voor nu kun je gewoon onder je eigen naam beginnen.
+Voordat je dingen gaat aanpassen, maak je eerst een eigen "branch": daarin kun je dan wijzigingen maken en naar Forgejo sturen, zonder dat je met je klasgenoten in conflict raakt. Gebruik <kbd>Ctrl+Shift+P</kbd>, kies het commando "Git: Checkout to...", kies de optie "+ Create new branch..." en voer je eigen naam in als naam van de branch. Later kun je dit gebruiken om per nieuwe feature of set aan wijzigingen een branch aan te maken, maar voor nu kun je gewoon onder je eigen naam beginnen.
 
 Een goed begin is met een aantal wijzigingen aan de *map*, die beschrijft hoe onze wereld eruit ziet. Open Tiled en open het bestand *resources/maps/main.tmx*. Sla het bestand op en voer de game opnieuw uit in Visual Studio Code om je gewijzigde game te spelen.

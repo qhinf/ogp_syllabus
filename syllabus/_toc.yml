@@ -20,3 +20,4 @@ parts:
       - file: tutorials/animatie
       - file: tutorials/damage
       # - file: tutorials/schieten
+      - file: tutorials/solid
